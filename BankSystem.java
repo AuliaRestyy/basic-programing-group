@@ -12,11 +12,13 @@ public class BankSystem {
         int choice;
 
         do {
-            System.out.println("Choose an option: ");
-            System.out.println("1. Deposit money");
-            System.out.println("2. Withdraw money");
-            System.out.println("3. Check balance");
-            System.out.println("4. Exit");
+            System.out.println("=====================");
+            System.out.println("|Choose an option:  |");
+            System.out.println("|1. Deposit money   |");
+            System.out.println("|2. Withdraw money  |");
+            System.out.println("|3. Check balance   |");
+            System.out.println("|4. Exit            |");
+            System.out.println("=====================");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
              
