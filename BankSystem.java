@@ -41,9 +41,6 @@ public class BankSystem {
                     if (withdraw > 500) {
                         System.out.println("Error: You can't withdraw more than $500 at once.");
                         failedTransaction++;
-                    } else if (withdraw <= 0) {
-                        System.out.println("Error: You can't withdraw a negative amount. Please try again.");
-                        failedTransaction++;
                     } else if (withdraw <= balance) {
                         balance -= withdraw;
                         System.out.println("Withdrawal successful! Your new balance is $" + balance);
